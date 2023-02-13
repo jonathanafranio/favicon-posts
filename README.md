@@ -1,7 +1,7 @@
 # Plugin WordPress Posts Favoritos
 
-Desafio para vaga de dev. back-end para uma empresa espeecializada em WP, fiz e entreguei mas os p**os não sequer me deram um retorno...
-Um plugin que usuário logado, favorita os posts do blog.
+Desafio para vaga de dev. back-end para uma empresa especializada em WP, fiz e entreguei mas os p**os não sequer me deram um retorno...
+Um plugin que usuário logado, favorita e desfavorita os posts do blog.
 
 ## Instruções:
 
