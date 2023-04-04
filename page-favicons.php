@@ -11,7 +11,7 @@ if ( $logado ) {
     $user_id = wp_get_current_user()->ID;
     $base_name = $wpdb->base_prefix . "favicons_posts";
 
-    $favicons = $wpdb->get_results("SELECT post FROM $base_name WHERE user = 1");
+    $favicons = $wpdb->get_results("SELECT post FROM $base_name WHERE user = $user_id");
     if( $favicons ) {
         $aux_favicon = array();
         foreach( $favicons as $favicon ) {
